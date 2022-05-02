@@ -6,6 +6,7 @@ function exercise(check) {
     return outPrint;
 }
 
+console.log(`//////Very Easy Section//////`)
 let run = exercise('running');
 console.log(run());
 let swim = exercise(`swimming`);
@@ -20,6 +21,11 @@ function cutPizzaSlices(size){
     return pizzaOutput;
 }
 
+console.log(`
+
+
+
+//////Medium Section//////`)
 var sharePizza=cutPizzaSlices(8);
 console.log(sharePizza(2));
 console.log(sharePizza(3));
@@ -31,6 +37,9 @@ let hardFunc=(function(){
     return function(){
       return `Name: ${pii.name} SSN:***-**-${pii.Ssn.slice(7)}`}; //
 })();
+console.log(`
+
+//////Hard Section//////`)
 console.log(hardFunc());
 
 
@@ -80,6 +89,11 @@ class ProgrammerCl extends PersonCl {
     }
 }
 const aza = new ProgrammerCl ("Aza","Front End Developer",24);
+
+console.log(`
+
+
+//////Very Hard Section//////`)
 aza.exercise();
 aza.fetchJob();
 aza.learnLanguage("java");
